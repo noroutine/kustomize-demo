@@ -1,0 +1,10 @@
+apiVersion: config.k8s.io/v1alpha1
+kind: Krmfile
+openAPI:
+  definitions:
+    io.k8s.cli.setters.version:
+      x-k8s-cli:
+        setter:
+          name: version
+          value: v0.2
+          isSet: true
